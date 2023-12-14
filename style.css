@@ -1,0 +1,51 @@
+body{
+	font-family: Tahoma;
+}
+
+header{
+	background-color: SaddleBrown;
+	color: white;
+	padding: 3px;
+	text-align: center;	
+}
+
+footer{
+	background-color: SaddleBrown;
+	color: white;
+	padding: 3px;
+	text-align: center;	
+}
+
+#lewy{
+	background-color: Tan;
+	height: 400px;
+	width: 40%;
+	float: left;
+}
+
+#prawy{
+	background-color: Tan;
+	height: 400px;
+	width: 40%;
+	float: left;
+}
+
+#srodkowy{
+	background-color: Wheat;
+	height: 400px;
+	width: 20%;
+	float: left;
+}
+
+img{
+	margin: 20px;
+	float: right;
+}
+
+h4{
+	text-align: center;
+}
+
+input[type="text"]{
+	margin: 5px;
+}

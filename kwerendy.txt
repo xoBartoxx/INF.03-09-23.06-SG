@@ -1,0 +1,4 @@
+KWERENDA 1. INSERT INTO czytelnicy VALUES (NULL, "Ewelina", "Romanowska", "56677")
+KWERENDA 2. SELECT imie, nazwisko FROM czytelnicy ORDER BY nazwisko ASC
+KWERENDA 3. SELECT tytul FROM ksiazki WHERE id_autor = 8
+KWERENDA 4. SELECT COUNT(tytul) AS "ile_Tytulow", nazwisko FROM autorzy JOIN ksiazki ON autorzy.id = ksiazki.id_autor GROUP BY nazwisko
